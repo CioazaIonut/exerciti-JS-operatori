@@ -40,3 +40,37 @@ val++;
 console.log(val);
 val--;
 console.log(val);
+
+//Calcularea mediei a trei numere:
+
+let numar1 = 8;
+let numar2 = 12;
+let numar3 = 20;
+let media = (num1 + num2 + num3) / 3;
+console.log(media);
+
+// Calcularea procentului dintr-un număr:
+
+let total = 250;
+let procent = 15;
+let valoare = (procent / 100) * total;
+console.log(valoare);
+
+// Calcularea diferenței dintre două date,
+// în zile (presupunând că le ai în milisecunde):
+// nu inteleg ce se cere
+
+// Calcularea puterii unui număr (exponent):
+let bază = 5;
+let exponențial = 3;
+let rezultat = Math.pow(bază, exponențial);
+console.log(rezultat);
+
+// Determinarea dacă un număr este par sau impar:
+
+let numar = 17;
+if (numar % 2 === 0) {
+  console.log("Par");
+} else {
+  console.log("Impar");
+}
